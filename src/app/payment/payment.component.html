@@ -1,0 +1,60 @@
+<h1>Online Shopping <span class="pocket">Pocket</span></h1>
+<div class="w3-bar w3-blue">
+    <a id="float" href="#" (click)="logout()" class="w3-bar-item w3-button"> <span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+    <a id="float" href="/product" class="w3-bar-item w3-button"><span class="glyphicon glyphicon-shopping-cart"></span> Back to Product Details</a>
+    </div>
+<div style="width:800px; margin-left:50%; margin-right:50%">
+    <input type="image" src="{{selectedProduct.image}}" alt="Allen Solly image" width="25%" height="25%">	
+    <p><b>{{selectedProduct.name}} : &#8377; {{selectedProduct.price}} </b></p>
+</div>
+<form [formGroup]="form" (ngSubmit)="validateForm(form.value)">
+  <table>
+    <tr>
+      <td>
+        Address:
+      </td>
+      <td>
+        <textarea formControlName="address" ></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mobile No:
+      </td>
+      <td>
+        <input type="tel" formControlName="mobileNo"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <br>
+        <input type="radio" name="browser" (click)="isDisable(false)" checked >Debit/Credit Card:
+        
+        <br>
+      </td>
+      <td>
+        <br>
+          <input type="radio" name="browser" (click)="isDisable(true)"  >Cash On Delivery
+        
+      </td>
+    </tr>
+    <tr>
+      <td>
+          Card No: 
+      </td>
+      <td>
+          <input type="text"  [disabled]="isDisableTextBox" id="answer" formControlName="cardNo"  size="20"  >
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <input type="submit" [disabled]="!form.valid" value="submit" />    
+          
+      </td>
+
+      
+    </tr>
+    
+  </table>
+</form>
+

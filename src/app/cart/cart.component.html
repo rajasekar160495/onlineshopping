@@ -1,0 +1,47 @@
+
+
+<h1>Online Shopping <span class="pocket">Pocket</span></h1>
+<div class="w3-bar w3-blue">
+    <a id="float" href="#" (click)="logout()" class="w3-bar-item w3-button"> <span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+    <a id="float" href="/dashboard" class="w3-bar-item w3-button"><span class="glyphicon glyphicon-shopping-cart"></span> Back to Products</a>
+    </div>
+<ul>
+    <li *ngFor="let product of products | pairs">
+      <table cellpadding="10" cellspacing="10" >
+        <tr>
+          <td align="center" *ngIf="product[0]">
+              <input type="image" src="{{product[0].image}}" alt="Allen Solly image" >		
+              
+          
+          </td>
+          <td *ngIf="product[0]">
+              <p><b>{{product[0].productName}} : &#8377; {{product[0].amount}} </b></p>
+            <h1><b>Description:</b></h1>
+            <p>{{product[0].description}}</p>
+              <button class="btn" (click)="deleteProduct(product[0])"> <span class="glyphicon glyphicon-trash"></span> Delete</button><br>
+           
+          </td>
+        
+    
+  
+          <td align="center" *ngIf="product[1]">
+              <input type="image" src="{{product[1].image}}" alt="Allen Solly image" >		
+              
+          
+          </td>
+          <td *ngIf="product[1]">
+              <p><b>{{product[1].productName}} : &#8377; {{product[1].amount}} </b></p>
+            <h1><b>Description:</b></h1>
+            <p>{{product[1].description}}</p>
+              <button class="btn" (click)="deleteProduct(product[1])"> <span class="glyphicon glyphicon-trash"></span> Delete</button><br>
+           
+          </td>
+      
+        </tr>	
+  
+    
+      </table>
+      
+    
+    </li>
+    </ul>

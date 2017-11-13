@@ -1,0 +1,61 @@
+input{
+    width:250px;
+    height:250px;
+    }
+   /*  .header{
+    background-color:white;
+        color: #555555;
+        border-width: 2px;
+        border-style:solid;
+       
+
+    } */
+    
+    .pocket{
+      color: #4CAF50;
+      text-decoration:none;
+      }
+    
+    a{
+    text-decoration:none;
+    }
+
+    ul{
+		list-style-type: none;
+  }
+  
+  
+	table{
+		width: 100%;
+	}
+    #float{
+      float: right;
+    }
+        
+        .btn {
+          background-color:#008CFF; /* blue */
+          border: none;
+          color: white;
+          padding-left: 0px 0px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          margin:2px; 
+          cursor: pointer;
+          width: 130px;
+          height: 30px;
+        }
+        
+        .btn:hover {
+          background: #3cb0fd;
+          background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+          background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+          background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+          background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+          background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+          text-decoration: none;
+        }
+
+        button[hidden] { display: none; }
+        a[hidden] { display: none; }

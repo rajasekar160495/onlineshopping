@@ -1,0 +1,60 @@
+
+
+<h1>Online Shopping <span class="pocket">Pocket</span></h1>
+<div class="w3-bar w3-blue">
+    <a id="float" href="#" (click)="logout()" class="w3-bar-item w3-button"> <span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+    <a id="float" href="/dashboard" class="w3-bar-item w3-button"><span class="glyphicon glyphicon-shopping-cart"></span> Back to Products</a>
+    </div>
+<div id="header">
+
+        <h2>Product Details</h2>
+       
+</div>
+
+
+<form [formGroup]="form" (ngSubmit)="validateForm(form.value)">
+  <table cellspacing="10">
+    <tr>
+      <td>
+          Product Name:
+      </td>
+      <td>
+          <input type="text" placeholder="productName" name="username"  formControlName="productName"  [(ngModel)]="pName" /><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Product Description: 
+        </td>
+        <td>
+            <input type="text" placeholder="product description" name="username"  formControlName="productDescription"  [(ngModel)]="pDescription"/><br><br>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Price (&#8377;):
+          </td>
+          <td>
+              <input type="text" placeholder="product price" name="username"  formControlName="productPrice"  [(ngModel)]="pPrice"/><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Image Path:
+            </td>
+            <td>
+                <input type="text" placeholder="image path" name="username"  formControlName="productImage"  [(ngModel)]="pImage" /><br><br> 
+              </td>
+          </tr>
+          <tr>
+              <td>
+                    <input type="submit" [disabled]="!form.valid" value="submit"/> 
+              </td>
+          </tr>
+          
+
+  </table>
+
+  
+</form>
+

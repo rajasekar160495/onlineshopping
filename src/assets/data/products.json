@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "name": "Cricket Kit",
+      "description": "MRF Kit,with 2 glouses and pads",
+      "price": "600",
+      "image": "http://media.gettyimages.com/photos/the-tools-for-a-batsman-picture-id497203317",
+      "id": "1"
+    },
+    {
+      "name": "Game of thrones S7-Book",
+      "description": "American Based fantasy book,Story is about wars between the seven thrones",
+      "price": "65",
+      "image": "https://www.heyuguys.com/images/2012/03/covers-game-of-thrones-1.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Angular 4",
+      "description": "Emerging ",
+      "price": "650",
+      "image": "https://webdev.dartlang.org/assets/angulardart-5e7ebca88c5584b1da301f9f9e61d1e7d4f0688b6a9222991cde3bada950088c.svg",
+      "id": "3"
+    },
+    {
+      "name": "Allen Solly",
+      "description": "Fine fabrics made by german manufacturer",
+      "price": "500",
+      "image": "http://www.stylerug.net/wp-content/uploads/2016/12/AMSF516G04826.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Moto g5 plus",
+      "description": "13+13MP dual back camera (f/2.0, dual LED flash) and 8MP front facing camera with flash 4GB RAM and 64GB internal memory expandable up to 128GB 13.97cms (5.5-inch) Full HD (1080 x 1920) capacitive touchscreen with Gorilla Glass 3 protection Dual nano SIM with dual-standby (4G+4G); Metal body with fingerprint reader Android v7.1 Nougat operating system with 2.0GHz Snapdragon 625 octa-core processor 3000mAH Lithium-ion battery with 15W Turbo Charging 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including battery from the date of purchase",
+      "price": "15999",
+      "image": "https://i.gadgets360cdn.com/large/moto_g5_plus_sapphire_blue_1490258170664.jpeg?output-quality=80",
+      "id": "ryHCAm9n-"
+    },
+    {
+      "name": "Impex Iron Box",
+      "description": "smart dry ironing Tefloan coated soleplate Heat resistant Amite Skite plate Indian standard copper(360°) Supply :220AC,50/60Hz. Power :1000Watts",
+      "price": "649",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/31SPwq10OcL._SX450_.jpg",
+      "id": "Hy6myVcn-"
+    },
+    {
+      "name": "boAt BassHeads 225 ",
+      "description": "Innovative housing design enables for easy adjustment and optimal wearing comfort with powerful 10mm drivers for sonic clarity, bass-driven stereo sound and good attenuation of ambient noise The noise-cancelling microphone enables trouble free receiving of calls or undeterred sessions of musical extravaganza Made to fit you and your lifestyle, providing a smooth grip for an extra secure and comfortable fit for your ears Passive noise cancellation feature enables users to enjoy listening to your music in a chaotic and noisy environment, it also enables users to receive calls on-the-go Crafted with care, the polished metal ensures its longevity The tangle-free cable is lightweight and features user-friendly controls for easy functioning warranty : 1 Year",
+      "price": "549",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61S1egWCBaL._SL1500_.jpg",
+      "id": "HyUDkV93W"
+    },
+    {
+      "name": "Philips MMS8085B/94 2.1 Channel",
+      "description": "Ultra HD quality with 1000 watts. 5.1 surrounds.",
+      "price": "6699",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/31mOIzKZVrL.jpg",
+      "id": "rye7lN5hW"
+    },
+    {
+      "name": "Nikon D5600",
+      "description": "Details at its finest Seize split-second moments Discover a fresh point of view Intuitively designed for easy handling Cinematic brilliance Share your creations on-the-go 24.2 effective megapixels, an Expeed 4 image-processing engine and an ISO range of 100-25600 that captures beautiful and vibrant imagery",
+      "price": "60514",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Ib16qA7rL._SX450_.jpg",
+      "id": "SyLteV9hW"
+    },
+    {
+      "name": "Trivia Four Seater Dining Set ",
+      "description": "Modern Furniture reflects the design philosophy of form following function prevalent in modernism. These designs represent the ideals of cutting excess, practicality and an absence of decoration.",
+      "price": "13950",
+      "image": "https://ii1.pepperfry.com/media/catalog/product/t/r/494x544/trivia-four-seater-dining-set-in-dark-cappucino-by--home-trivia-four-seater-dining-set-in-dark-cappu-ihcry0.jpg",
+      "id": "B1H3mVq2Z"
+    }
+  ],
+  "orders": [
+    {
+      "productName": "Allen Solly",
+      "address": "2nd lane street , adambakkam",
+      "cod": false,
+      "contact": "9790914286",
+      "ownername": "Rajasekar",
+      "amount": 5,
+      "image": "http://www.stylerug.net/wp-content/uploads/2016/12/AMSF516G04826.jpg",
+      "description": "Fine fabrics made by german manufacturer",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "raja",
+      "password": "aspire@123",
+      "isAdmin": "N"
+    },
+    {
+      "id": "2",
+      "name": "sekar",
+      "password": "aspire@123",
+      "isAdmin": "N"
+    },
+    {
+      "id": "3",
+      "name": "ananth.mathiazhakan",
+      "password": "aspire@123",
+      "isAdmin": "Y"
+    }
+  ]
+}

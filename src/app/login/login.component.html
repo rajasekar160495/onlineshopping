@@ -1,0 +1,16 @@
+<body>
+
+
+            <flash-messages></flash-messages>
+        <section>
+            <h2>Login to your account</h2>
+                <form  #userForm="ngForm" (ngSubmit)="validateForm(userForm.value)">
+                  <input type="text" placeholder="Username" name="username"  ngModel /><br><br>
+                  <input type="password" placeholder="Password" name="pwd"  ngModel/><br><br>
+                  <input type="submit" value="Login"/> 
+                </form>
+            </section>
+
+
+    
+</body>

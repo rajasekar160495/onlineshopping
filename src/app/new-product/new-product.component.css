@@ -1,0 +1,61 @@
+
+input[type=text],input[type=password],input[type=email],input[type=tel]{
+    position: relative;
+    background: #ffffff;
+    max-width: 320px;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+   
+
+    
+}
+.pocket{
+    color: #4CAF50;
+    text-decoration:none;
+    } 
+    
+table{
+margin: auto ;
+   
+    
+}
+
+#float{
+    float: right;
+  }
+
+input[type=submit] {
+    width: 100%;
+    max-width: 320px;
+
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+
+
+    background-color:#008CFF; /* blue */
+    color: white; 
+    cursor: pointer;
+}
+      
+#header{
+    top: 0;
+    left: 50%;
+    right: 50%;    
+    position: relative;
+
+}
+      
+.navButton{
+    width:50px; 
+    height:50px;
+    float:right;
+    }
+
+input[type=submit]:disabled {
+        background: #cfcbcb;
+        color: lightslategrey;
+    }

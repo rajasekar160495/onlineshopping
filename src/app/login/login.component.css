@@ -1,0 +1,27 @@
+input{
+    position: relative;
+    background: #ffffff;
+    max-width: 320px;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+   
+  
+    
+  }
+  section
+  {      display: block;
+      text-align: center;
+  }
+  
+  
+  
+  input[type=submit] {
+    background-color:#008CFF; /* blue */
+    color: white;
+    cursor: pointer;
+  }
+    
+
+    

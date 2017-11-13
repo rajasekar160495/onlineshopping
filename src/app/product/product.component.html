@@ -1,0 +1,18 @@
+
+<h1>Online Shopping <span class="pocket">Pocket</span></h1>
+<div class="w3-bar w3-blue">
+    <a id="float" href="#" (click)="logout()" class="w3-bar-item w3-button"> <span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+    <a id="float" href="/dashboard" class="w3-bar-item w3-button"><span class="glyphicon glyphicon-shopping-cart"></span> Back to Products</a>
+    </div>
+<article >
+  <section>
+      <input type="image" src="{{selectedProduct.image}}" alt="Allen Solly image" >	
+      <p><b>{{selectedProduct.name}} : &#8377; {{selectedProduct.price}} </b></p>
+      <button class="btn" routerLink="/payment" > Pay Now </button>
+  </section>
+<br>
+    <section >
+      <h3>Description</h3>
+      {{selectedProduct.description}}
+    </section>
+</article>   	
